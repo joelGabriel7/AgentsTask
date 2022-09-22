@@ -1,13 +1,13 @@
 # AgentsTask
 Agenda de Tarea creada con Django 
 # Login Page
-![imagen](https://user-images.githubusercontent.com/90260089/191669647-cc9942bf-c592-4403-b91f-22e690d08acc.png)
+![imagen](https://user-images.githubusercontent.com/90260089/191670175-05765641-e5e3-4eea-b333-d3f09ada6673.png)
 # List Page
-![imagen](https://user-images.githubusercontent.com/90260089/191669760-c9ddde37-ce1e-4942-afca-c4e6442d294c.png)
+![imagen](https://user-images.githubusercontent.com/90260089/191670116-1f776ab3-2680-4ebe-8f5f-cefa2f303f61.png)
 # Create Task Page
-![imagen](https://user-images.githubusercontent.com/90260089/191669817-6d68b278-b892-4ab3-bfe1-95f0e9e8b594.png)
+![imagen](https://user-images.githubusercontent.com/90260089/191670275-0c66a346-abf6-4d83-a4b4-f0a32124ee95.png)
 # Update Task Page
-![imagen](https://user-images.githubusercontent.com/90260089/191669945-7282dd46-fa81-49b8-8c27-3d3405398dd0.png)
+![imagen](https://user-images.githubusercontent.com/90260089/191670369-4a13583e-6055-40e6-82cb-339d313d4e81.png)
 # Delete Task Page
 ![imagen](https://user-images.githubusercontent.com/90260089/191669996-91af06bf-06e6-41d8-a555-d53aed73b8a9.png)
 
