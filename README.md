@@ -9,5 +9,4 @@ Agenda de Tarea creada con Django
 # Update Task Page
 ![imagen](https://user-images.githubusercontent.com/90260089/191670369-4a13583e-6055-40e6-82cb-339d313d4e81.png)
 # Delete Task Page
-![imagen](https://user-images.githubusercontent.com/90260089/191669996-91af06bf-06e6-41d8-a555-d53aed73b8a9.png)
-
+![imagen](https://user-images.githubusercontent.com/90260089/191670504-d4b96f02-3129-450d-baa6-196548047c5c.png)
