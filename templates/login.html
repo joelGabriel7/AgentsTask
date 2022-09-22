@@ -1,4 +1,5 @@
 {% load static %}
+{% load widget_tweaks %}
 <!doctype html>
 <html lang="en">
   <head>
@@ -25,16 +26,22 @@
 				<div class="col-md-6 col-lg-4">
 					<div class="login-wrap p-0">
 		      	<h3 class="mb-4 text-center">Have an account?</h3>
-		      	<form action="#" class="signin-form">
+		      	<form action="."  method="post">
+                      {% csrf_token %}
 		      		<div class="form-group">
-		      			<input type="text" class="form-control" placeholder="Username" required>
+{#		      			<input type="text" class="form-control" placeholder="Username" >#}
+                        {{ form.username|add_class:'form-control'|attr:'autocomplete:off'|attr:'placeholder: username' }}
+
 		      		</div>
 	            <div class="form-group">
-	              <input id="password-field" type="password" class="form-control" placeholder="Password" required>
+{#	              <input id="password-field" type="password" class="form-control" placeholder="{{ form.password}}" >#}
 	              <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                {{ form.password|add_class:'form-control'|attr:'autocomplete:off'|attr:'placeholder: password' }}
+
+
 	            </div>
 	            <div class="form-group">
-	            	<a href="{% url 'task_list' %}" type="submit" class="form-control btn btn-primary submit px-3">Inicia Sesion</a>
+	            	<button  type="submit" class="form-control btn btn-primary submit px-3">Inicia Sesion</button>
 	            </div>
 	            <div class="form-group d-md-flex">
 	            	<div class="w-50">
